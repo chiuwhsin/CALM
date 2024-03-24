@@ -1,0 +1,9 @@
+repos:
+  - repo: local
+    hooks:
+      - id: llm-code-understanding
+        name: CALM
+        entry: pipenv run python CALM/CALM.py
+        language: system
+        files: \.py$
+        pass_filenames: false
