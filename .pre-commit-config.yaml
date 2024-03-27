@@ -6,4 +6,4 @@ repos:
         entry: pipenv run python CALM/CALM.py
         language: system
         files: \.py$
-        pass_filenames: false
+        pass_filenames: true  # Pass staged .py filenames to the script

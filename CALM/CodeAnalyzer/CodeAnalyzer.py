@@ -21,9 +21,6 @@ class CodeAnalyzer:
         )
     
     def analyze_code(self, source_code):
-        """
-        Analyzes the given source code string and returns a structured analysis.
-        """
         test_prompt = f'''
         Given the following Python code summarize each function, class, and major blocks of the code.
         Please provide concise and short step-by-step explanation of them.
