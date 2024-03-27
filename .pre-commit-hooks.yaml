@@ -1,0 +1,7 @@
+- id: llm-code-understanding
+  name: CALM
+  description: "Code assistant with language model to insert comments."
+  entry: calm-llm
+  language: python
+  pass_filenames: true
+  types: [python]
